@@ -25,3 +25,27 @@ minus(2, 4);
 gange(2, 4);
 divider(2, 4);
 
+
+
+var result = 0;
+
+function add(num){
+    result += num;
+}
+add(10);
+
+function sub(num){
+    result -= num;
+}
+sub(5);
+
+function mul(num){
+    result *= num;
+}
+mul(4);
+
+function div(num){
+    result /= num;
+}
+div(5);
+
